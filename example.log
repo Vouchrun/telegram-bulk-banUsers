@@ -1,0 +1,62 @@
+🚀 Starting Telegram spam cleaner
+ℹ️ Make sure you've authorized the session first!
+--------------------------------------------------
+✅ Processing chat: MyGroup Official (ID: 224444449)
+🔄 Fetching ALL participants (this may take time for large groups)...
+📄 Page 1: Found 199 participants with join dates (Total so far: 199)
+📊 Total participants in channel: 3039
+⏳ Waiting 1.1s before next request...
+📄 Page 2: Found 200 participants with join dates (Total so far: 399)
+⏳ Waiting 1.1s before next request...
+📄 Page 3: Found 200 participants with join dates (Total so far: 599)
+⏳ Waiting 1.1s before next request...
+📄 Page 4: Found 200 participants with join dates (Total so far: 799)
+⏳ Waiting 1.2s before next request...
+📄 Page 5: Found 200 participants with join dates (Total so far: 999)
+⏳ Waiting 1.2s before next request...
+📄 Page 6: Found 200 participants with join dates (Total so far: 1199)
+⏳ Waiting 1.3s before next request...
+📄 Page 7: Found 200 participants with join dates (Total so far: 1399)
+⏳ Waiting 1.4s before next request...
+📄 Page 8: Found 200 participants with join dates (Total so far: 1599)
+⏳ Waiting 1.4s before next request...
+📄 Page 9: Found 200 participants with join dates (Total so far: 1799)
+⏳ Waiting 1.4s before next request...
+📄 Page 10: Found 200 participants with join dates (Total so far: 1999)
+⏳ Waiting 1.5s before next request...
+📄 Page 11: Found 200 participants with join dates (Total so far: 2199)
+⏳ Waiting 1.6s before next request...
+📄 Page 12: Found 200 participants with join dates (Total so far: 2399)
+⏳ Waiting 1.6s before next request...
+📄 Page 13: Found 200 participants with join dates (Total so far: 2599)
+⏳ Waiting 1.6s before next request...
+📄 Page 14: Found 200 participants with join dates (Total so far: 2799)
+⏳ Waiting 1.7s before next request...
+📄 Page 15: Found 200 participants with join dates (Total so far: 2999)
+⏳ Waiting 1.8s before next request...
+📄 Page 16: Found 19 participants with join dates (Total so far: 3018)
+📭 Reached end of participant list
+
+📊 FINAL COUNT: Found 3018 participants with join dates out of 3039 total members
+🚨 Found 2656 users who joined during spam period
+
+🔍 First 5 spam users found:
+- David Holland (@No username) - Joined: 2025-07-09 08:16:29 UTC
+- Robert Simmons (@No username) - Joined: 2025-07-09 08:16:28 UTC
+- Tammy Nunez (@No username) - Joined: 2025-07-09 08:16:22 UTC
+- Kathryn Bennett (@No username) - Joined: 2025-07-09 08:16:30 UTC
+- Randy Collins (@No username) - Joined: 2025-07-09 08:16:30 UTC
+
+⚠️ WARNING: About to BAN 2656 users. Proceed? (yes/no): yes
+
+==================================================
+⚡ Starting ban operation at 2025-08-10 08:13:57 UTC
+💡 DRY_RUN = False
+💡 Total spam users: 2656
+💡 Starting with progressive delay system
+==================================================
+
+✅ Banned (1/2656): David Holland (@No username)
+⏳ Waiting 6.8s before next ban...
+✅ Banned (2/2656): Robert Simmons (@No username)
+⏳ Waiting 4.9s before next ban...
