@@ -61,8 +61,22 @@ async def main():
                 valid_count = 0
                 for participant in result.participants:
                     if hasattr(participant, 'date') and participant.date:
+                        # Extract user_id based on participant type
+                        user_id = None
+                        
+                        # Most participant types have user_id directly
+                        if hasattr(participant, 'user_id'):
+                            user_id = participant.user_id
+                        # ChannelParticipantBanned has peer.user_id instead
+                        elif hasattr(participant, 'peer') and hasattr(participant.peer, 'user_id'):
+                            user_id = participant.peer.user_id
+                        
+                        # Skip if we couldn't determine user_id
+                        if user_id is None:
+                            continue
+                        
                         # Find corresponding user
-                        user = next((u for u in result.users if u.id == participant.user_id), None)
+                        user = next((u for u in result.users if u.id == user_id), None)
                         if user:
                             all_participants.append({
                                 'user': user,
